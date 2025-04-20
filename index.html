@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <h1>🛍️ Lista de Compras</h1>
+    <input type="text" id="productoInput" placeholder="Escribe un producto" />
+    <div class="botones">
+      <button onclick="agregarProducto()">Agregar</button>
+      <button onclick="mostrarLista()">Mostrar Lista</button>
+      <button onclick="eliminarProducto()">Eliminar</button>
+    </div>
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

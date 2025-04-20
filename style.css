@@ -1,0 +1,67 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("imágenes/compras.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #333;
+}
+
+/* Contenedor principal */
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+h1 {
+  color: #2e8b57;
+  margin-bottom: 20px;
+}
+
+/* Input */
+input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Botones */
+.botones button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.botones button:hover {
+  background-color: #246b44;
+}
+
+/* Lista estilo botón */
+#lista li {
+  background-color: #d1f2e3;
+  color: #2e8b57;
+  margin: 8px auto;
+  padding: 10px 15px;
+  width: 80%;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
